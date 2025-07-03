@@ -1,0 +1,4 @@
+// Exemplo básico para validação do formulário
+document.querySelector("form").addEventListener("submit", function(e) {
+    alert("Mensagem enviada! Entraremos em contato em breve.");
+});
