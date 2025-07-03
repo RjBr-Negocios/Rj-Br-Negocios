@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>RjBr Negocios | Serviços de Limpeza</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Header com Banner -->
+    <header class="banner">
+        <div class="overlay">
+            <h1>Limpeza Profissional e Prática</h1>
+            <p>Sua casa ou empresa impecável sem você se preocupar.</p>
+            <a href="#agendamento" class="btn-agendar">Agendar Agora</a>
+        </div>
+    </header>
+
+    <!-- Seção Sobre Nós -->
+    <section class="sobre-nos" id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos o parceiro que você precisa, buscando atender em tudo que o nosso cliente solicitar. Com profissionais treinados e equipamentos modernos, garantimos qualidade e praticidade em cada serviço realizado.</p>
+    </section>
+
+    <!-- Seção Nossos Serviços -->
+    <section class="servicos" id="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="cards">
+            <div class="card">
+                <img src=" https://img.icons8.com/ios-filled/100/000000/cleaning.png " alt="Limpeza Residencial">
+                <h3>Limpeza Residencial</h3>
+                <p>Deixe sua casa brilhando com nossos serviços personalizados para apartamentos e casas.</p>
+            </div>
+            <div class="card">
+                <img src="https://img.icons8.com/ios-filled/100/000000/office-building.png " alt="Limpeza Comercial">
+                <h3>Limpeza Comercial</h3>
+                <p>Manutenção diária ou pontual para escritórios, lojas e empresas com horários flexíveis.</p>
+            </div>
+            <div class="card">
+                <img src="https://img.icons8.com/ios-filled/100/000000/organization.png " alt="Organização">
+                <h3>Organização de Ambientes</h3>
+                <p>Ajudamos a organizar espaços bagunçados, deixando tudo no lugar e funcional.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Depoimentos -->
+    <section class="depoimentos" id="depoimentos">
+        <h2>O Que Nossos Clientes Dizem</h2>
+        <div class="depoimento">
+            <p>"Profissionais competentes e comprometidos. Minha casa nunca esteve tão limpa!"</p>
+            <span>— Ana Silva</span>
+        </div>
+        <div class="depoimento">
+            <p>"Super práticos! Agendei pelo WhatsApp e foi tudo rápido e eficiente."</p>
+            <span>— Carlos Mendes</span>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section class="contato" id="agendamento">
+        <h2>Agende Seu Serviço</h2>
+        <form action="#" method="POST">
+            <input type="text" name="nome" placeholder="Seu nome" required />
+            <input type="tel" name="telefone" placeholder="Seu telefone" required />
+            <input type="email" name="email" placeholder="Seu email" />
+            <textarea name="mensagem" placeholder="Descreva seu serviço..." required></textarea>
+            <button type="submit">Enviar Agendamento</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 RjBr Negocios. Todos os direitos reservados.</p>
+        <p><strong>Celular:</strong> +55 21 99681-8154</p>
+    </footer>
+
+    <!-- Botão Fixo WhatsApp -->
+    <a href="https://wa.me/5521996818154 " target="_blank" class="whatsapp-btn">
+        <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png " alt="WhatsApp">
+    </a>
+
+</body>
+</html>
