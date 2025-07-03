@@ -1,0 +1,181 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Banner */
+.banner {
+    background: url('https://images.unsplash.com/photo-1581578017420-e53e5c6e61db?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 60px;
+    width: 100%;
+    color: white;
+}
+.overlay h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.btn-agendar {
+    background-color: #25D366;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background 0.3s;
+}
+.btn-agendar:hover {
+    background-color: #128C7E;
+}
+
+/* Sobre Nós */
+.sobre-nos {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.sobre-nos h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Serviços */
+.servicos {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+.servicos h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card {
+    background: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+/* Depoimentos */
+.depoimentos {
+    padding: 60px 20px;
+    background-color: #e6f7ff;
+    text-align: center;
+}
+.depoimento {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-left: 5px solid #25D366;
+    border-radius: 5px;
+}
+.depoimento span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Contato */
+.contato {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.contato form {
+    max-width: 600px;
+    margin: auto;
+    display: grid;
+    gap: 15px;
+}
+.contato input, .contato textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.contato button {
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.contato button:hover {
+    background-color: #128C7E;
+}
+
+/* Rodapé */
+footer {
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #25D366;
+    border-radius: 50%;
+    padding: 10px;
+    transition: transform 0.2s;
+}
+.whatsapp-btn:hover {
+    transform: scale(1.1);
+}
+.whatsapp-btn img {
+    width: 48px;
+    height: 48px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
